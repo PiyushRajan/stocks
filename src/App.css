@@ -1,0 +1,14 @@
+.main_wrapper{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.scroll{
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
